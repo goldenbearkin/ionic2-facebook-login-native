@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Test Facebook Login Native
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <button full (click)="getStatus()">Facebook getState</button>
+  <button full (click)="login()">Facebook Login</button>
+  <button full (click)="logout()">Facebook Logout</button>
+
+  <ion-card>
+    <ion-card-header>
+      <!--Status: {{status}}-->
+    </ion-card-header>
+    <ion-card-content>
+      {{payload}}
+    </ion-card-content>
+</ion-card>
+</ion-content>

@@ -1,0 +1,3 @@
+cordova plugin add cordova-plugin-facebook4 --variable APP_ID="1650752755250939" --variable APP_NAME="facebook-login-native"
+
+ionic plugin add cordova-plugin-facebook4 --save --variable APP_ID="1650752755250939" --variable APP_NAME="facebook-login-native"
